@@ -10,16 +10,16 @@
   "main": "dist/angular2-firebase.js",
   "scripts": {
     "prepublish": "tsc --target es6",
-    "postinstall": "tsc --target es6"
+    "postinstall": "ls -l node_modules && tsc --target es6"
   },
   "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "angular2": "2.0.0-beta.6",
     "rxjs": "5.0.0-beta.0",
-    "zone.js": "0.5.14",
-    "typescript": "1.7.5"
+    "zone.js": "0.5.14"
   },
   "devDependencies": {
+    "typescript": "1.7.5"
   }
 }
